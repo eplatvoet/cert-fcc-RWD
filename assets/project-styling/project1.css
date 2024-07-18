@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:lightblue;
+}
+#title{
+    color: navy;
+}
+#description{
+    color: navy;
+    max-width: 500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#survey-form{
+    max-width: 500px;
+    text-align:left;
+}
+#survey-form *{
+    color: navy;
+}
+select, button{
+    font-family: 'Courier New', Courier, monospace;
+}
+hr{
+    margin: 10px 0;
+}
+input{
+    display:block;
+    font-family: 'Courier New', Courier, monospace;
+    margin:10px 0 10px;
+}
+input[type='radio'], input[type='checkbox']{
+    display:inline-block;
+    margin-right: 5px;
+}
+button{
+    background-color: navy;
+    color: white !important;
+    font-weight:bold;
+    padding: 10px 20px;
+}

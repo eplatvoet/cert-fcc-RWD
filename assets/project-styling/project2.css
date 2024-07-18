@@ -1,0 +1,54 @@
+body{
+    background-color: palevioletred;    
+}
+main{
+    background-color: white;
+    max-width: 767px;
+    padding: 25px;
+    margin: 0 auto;
+}
+#title {
+  font-weight: 800;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: navy;
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption,
+li,
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color:navy;
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tribute-info p{
+    text-align:center;
+}
+
+a{
+    color: palevioletred;
+    font-weight:bold;
+}

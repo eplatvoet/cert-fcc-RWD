@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../assets/project-styling/project1.css">
+</head>
+
+<body>
+    <h1 id='title'>Survey Form</h1>
+    <p id='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Sed arcu non odio euismod lacinia at quis risus sed.</p>
+    <form id='survey-form'>
+        <label for='name' id="name-label">Name: <input id='name' type='text' placeholder='Jane Doe' required></label>
+        <label for='email' id="email-label">Email: <input id='email' type='email' placeholder='testing@gmail.com' required>
+        <label for='number' id="number-label">Age: <input id='number' type='number' min='10' max='120' placeholder="Age">
+        <hr>
+        <p>What's the purpose of this inquiry?</p>
+        <select id='dropdown'>
+            <option>select one</option>
+            <option>Business</option>
+            <option>Professional</option>
+        </select>
+        <hr>
+        <p>Do you want more info?</p>
+        <label> 
+            <input name="more-info" value="definitely" type="radio" class="input-radio" checked />Definitely
+        </label>
+        <label> 
+            <input name="more-info" value="maybe" type="radio" class="input-radio" />Maybe
+        </label>
+        <label>
+            <input name="more-info" value="not-sure" type="radio" class="input-radio" />Not sure
+        </label>
+        <hr>
+        <p>How do you want to hear from us?</p>
+        <label>
+            <input name="prefer" value="LinkedIn" type="checkbox" />LinkedIn
+        </label>
+        <label>
+            <input name="prefer" value="EMAIL" type="checkbox" />EMAIL
+        </label>
+        <label>
+            <input name="prefer" value="Facebook" type="checkbox" />Facebook
+        </label>
+        <label>
+            <input name="prefer" value="Instagram" type="checkbox" />Instagram
+        </label>
+        <label>
+            <input name="prefer" value="TikTok" type="checkbox" />TikTok
+        </label>
+        <hr>
+        <p>Any additional comments? Add below:</p>
+        <textarea rows='5' cols='25'></textarea>
+        <hr>
+        <p>Press button below to submit</p>
+        <button type='submit' id='submit'>Submit</button>
+    </form>
+</body>
+
+</html>

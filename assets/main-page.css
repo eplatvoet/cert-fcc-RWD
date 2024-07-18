@@ -1,0 +1,54 @@
+body{
+    
+}
+
+h1, p{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+.course-wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.course-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.course-card-wrapper .card{
+    background-color: lightgray;
+    max-width:200px;
+    margin: 15px;
+    padding: 15px;
+    position:relative;
+}
+
+.card p{
+    text-align:left;
+}
+
+.card a{
+    color: blue;
+}
+
+.card a:hover{
+    color: white;
+}
+
+.course-card-wrapper .card .card-number{
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    font-size: 30px;
+    color: gray;
+}
+
+@media (max-width: 767px){
+    .course-card-wrapper{
+        justify-content: center;
+    }
+}
