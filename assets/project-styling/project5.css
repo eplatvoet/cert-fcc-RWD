@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:monospace
+  }
+  body {
+    background-color: black;
+  }
+  nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+  }
+  .links {
+    color: lightgray;
+    font-weight: bold;
+  }
+  #welcome-section {
+    height: 100vh;
+    background-color: #333333 !important;
+  }
+  .welcome-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  h1{
+      font-size: 125px;
+  }
+  h2{
+      font-size: 50px;
+  }
+  #projects {
+    display: flex;
+    margin: 100px auto;
+    max-width: 550px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .project-tile {
+    max-width: 200px;
+    background-color: white;
+    padding: 25px;
+  
+  }
+  .project-tile * {
+    color: black;
+  }
+  .project-tile h3{
+      font-size: 28px;
+      padding-bottom:10px;
+  }
+  .project-tile p{
+      font-size: 16px;
+  }
+  
+  #contact {
+    padding: 100px 0;
+    text-align: center;
+    background-color:white;
+  }
+  #contact p{
+      color:black;
+  }
+  
+  #profile-link{
+      color: black;
+  }
+  .github-icon{
+      max-width: 75px;
+      margin-top: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    h1{
+      font-size: 70px;
+    }
+    h2{
+      font-size:27px;
+    }
+    #projects {
+      flex-direction: column;
+      align-items: center;
+    }
+    .project-tile {
+      margin: 20px 0;
+    }
+  }
+  
